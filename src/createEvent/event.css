@@ -1,0 +1,90 @@
+
+.card2{
+    text-align: center;
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  @property --angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }
+  
+  .card2::after, .card2::before{
+    content: '';
+    position: absolute;
+    height:102% ;
+    width: 86%;
+    background-image: conic-gradient(from var(--angle), #ff4545, #00ff99, #006aff, #ff0095, #ff4545);
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding: 10px;
+    border-radius: 50px;
+    animation: 3s spin linear infinite;
+  }
+  .card2::before{
+    filter: blur(1.5rem);
+    opacity: 0.5;
+  }
+  @keyframes spin{
+    from{
+      --angle: 0deg;
+    }
+    to{
+      --angle: 360deg;
+    }
+  }
+.card2 .el{
+  top: 540px;
+  right: 600px;
+}
+
+.button {
+  margin: 0;
+  height: auto;
+  background: transparent;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+
+.button {
+  --border-right: 6px;
+  --text-stroke-color: rgba(255,255,255,0.6);
+  --animation-color: #ffffff;
+  --fs-size: 2em;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: var(--fs-size);
+  font-family: "Arial";
+  position: relative;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--text-stroke-color);
+}
+
+.hover-text {
+  position: absolute;
+  box-sizing: border-box;
+  content: attr(data-text);
+  color: var(--animation-color);
+  width: 0%;
+  inset: 0;
+  border-right: var(--border-right) solid var(--animation-color);
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-text-stroke: 1px var(--animation-color);
+}
+
+.button:hover .hover-text {
+  width: 100%;
+  filter: drop-shadow(0 0 23px var(--animation-color))
+}

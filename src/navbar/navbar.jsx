@@ -6,7 +6,7 @@ import Login from './login';
 import CreateElement from './createElement';
 const Navbar = () => {
     return (
-        <div className='flex gap-[70px] justify-center items-center w-full bg-black fixed'>
+        <div className='flex   items-center w-full bg-black fixed z-10 py-[10px]'>
             <Logo/>
             <Search/>
             <Sign/>
