@@ -1,7 +1,7 @@
 
   .card{
     width: 504px;
-    height: 37px;
+    height: 30px;
     background: #ffffff;
     text-align: center;
     border-radius: 40px;
@@ -17,7 +17,7 @@
   .card::after, .card::before{
     content: '';
     position: absolute;
-    height:40px ;
+    height:33px ;
     width: 507px;
     background-image: conic-gradient(from var(--angle), #ff4545, #00ff99, #006aff, #ff0095, #ff4545);
     top: 50%;

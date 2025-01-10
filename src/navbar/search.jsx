@@ -3,7 +3,7 @@ import './Search.css';
 const Search = () => {
     return (
         <div>
-            <div className="card"></div>
+            <div className="card ml-[160px]"></div>
         </div>
     );
 }
