@@ -2,7 +2,7 @@ import React from 'react';
 import './songolt.css'
 const Songolt = () => {
     return (
-        <div className=''>
+        <div >
             <button class="btn">
               all
             </button>

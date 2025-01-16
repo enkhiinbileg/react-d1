@@ -6,7 +6,7 @@ import Login from './login';
 import CreateElement from './createElement';
 const Navbar = () => {
     return (
-        <div className='flex   items-center w-full bg-black fixed z-10 py-[10px]'>
+        <div className='flex   items-center w-full bg-black fixed m-0 z-10 py-[10px] top-0'>
             <Logo/>
             <Search/>
             <Sign/>

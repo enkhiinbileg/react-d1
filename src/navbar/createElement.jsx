@@ -1,12 +1,14 @@
 import React from 'react';
 import './createElement.css'
+import { Link } from 'react-router-dom';
+
 const CreateElement = () => {
     return (
         <div>
-            <div className="card1">
+            <Link className="card1" to={"/Event"} element={<Event/>}>
                 <h1>+</h1>
-                <p> Create element</p>
-            </div>
+                <p> Create Event</p>
+            </Link>
         </div>
     );
 }

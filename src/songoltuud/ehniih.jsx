@@ -1,9 +1,9 @@
 import React from 'react';
-import './ehniih.css'
+import style from  './ehniih.module.css'
 const Ehniih = ({buttonText}) => {
     return (
         <div>
-           <button id="btn">{buttonText}</button> 
+           <button id={style.btn}>{buttonText}</button> 
         </div>
     );
 }

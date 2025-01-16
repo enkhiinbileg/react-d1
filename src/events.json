@@ -1,0 +1,111 @@
+[
+    {
+      "event_name": "Tech Conference 2025",
+      "event_date": "03/25/2025",
+      "location": "New York, USA",
+      "ticket_price": 120,
+      "event_type": "conference",
+      "description": "A leading conference on cutting-edge technology.",
+      "image_url": "https://images.pexels.com/photos/50675/banquet-wedding-society-deco-50675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "event_name": "Marketing Seminar",
+      "event_date": "04/15/2025",
+      "location": "Los Angeles, USA",
+      "ticket_price": 80,
+      "event_type": "seminar",
+      "description": "A seminar focusing on innovative marketing strategies.",
+      "image_url": "https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "event_name": "Web Development Workshop",
+      "event_date": "05/05/2025",
+      "location": "San Francisco, USA",
+      "ticket_price": 50,
+      "event_type": "workshop",
+      "description": "An interactive workshop for budding web developers.",
+      "image_url": "https://images.pexels.com/photos/4940642/pexels-photo-4940642.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "event_name": "Startup Expo",
+      "event_date": "06/20/2025",
+      "location": "London, UK",
+      "ticket_price": 150,
+      "event_type": "expo",
+      "description": "A vibrant expo for entrepreneurs and investors.",
+      "image_url": "https://images.pexels.com/photos/20787619/pexels-photo-20787619/free-photo-of-conference-with-people-in-chairs-and-presenters-on-stage.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "event_name": "Creative Design Festival",
+      "event_date": "07/10/2025",
+      "location": "Berlin, Germany",
+      "ticket_price": 90,
+      "event_type": "festival",
+      "description": "A celebration of creativity in design and art.",
+      "image_url": "https://images.pexels.com/photos/29180760/pexels-photo-29180760/free-photo-of-public-speaking-event-in-london-s-indoor-venue.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "event_name": "Data Science Bootcamp",
+      "event_date": "08/15/2025",
+      "location": "Sydney, Australia",
+      "ticket_price": 200,
+      "event_type": "bootcamp",
+      "description": "A hands-on bootcamp for mastering data science skills.",
+      "image_url": "https://images.pexels.com/photos/22669860/pexels-photo-22669860/free-photo-of-people-sitting-at-event.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "event_name": "AI Research Symposium",
+      "event_date": "09/01/2025",
+      "location": "Tokyo, Japan",
+      "ticket_price": 180,
+      "event_type": "symposium",
+      "description": "A symposium on the latest advancements in AI research.",
+      "image_url": "https://images.pexels.com/photos/15448073/pexels-photo-15448073/free-photo-of-crowd-on-gathering-in-hall.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "event_name": "Blockchain Summit",
+      "event_date": "10/10/2025",
+      "location": "Singapore",
+      "ticket_price": 250,
+      "event_type": "summit",
+      "description": "An in-depth summit on blockchain technology.",
+      "image_url": "https://images.pexels.com/photos/9275222/pexels-photo-9275222.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+    },
+    {
+      "event_name": "Entrepreneurship Forum",
+      "event_date": "11/05/2025",
+      "location": "Paris, France",
+      "ticket_price": 95,
+      "event_type": "forum",
+      "description": "A forum for young entrepreneurs to share insights.",
+      "image_url": "https://images.pexels.com/photos/17385732/pexels-photo-17385732/free-photo-of-women-in-audience.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "event_name": "Cybersecurity Conference",
+      "event_date": "12/20/2025",
+      "location": "Berlin, Germany",
+      "ticket_price": 220,
+      "event_type": "conference",
+      "description": "A conference focused on cybersecurity trends and threats.",
+      "image_url": "https://images.pexels.com/photos/14373426/pexels-photo-14373426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "event_name": "Social Media Marketing Workshop",
+      "event_date": "01/30/2025",
+      "location": "Toronto, Canada",
+      "ticket_price": 60,
+      "event_type": "workshop",
+      "description": "Learn the best practices for social media marketing.",
+      "image_url": "https://images.pexels.com/photos/9275222/pexels-photo-9275222.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "event_name": "Web Design Bootcamp",
+      "event_date": "02/25/2025",
+      "location": "Madrid, Spain",
+      "ticket_price": 130,
+      "event_type": "bootcamp",
+      "description": "A practical bootcamp for aspiring web designers.",
+      "image_url": "https://images.pexels.com/photos/29180740/pexels-photo-29180740/free-photo-of-speaker-presenting-at-event-in-london.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+  ]
+  
